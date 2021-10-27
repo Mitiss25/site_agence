@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+    <div data-scroll-container id="conteneur">
+        <section data-scroll-section id="base">
+            <h1 data-scroll><strong>artémis</strong></h1>
+            <div id="icon_scroll" class="container">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+            </div>
+        </section>
+        <section data-scroll-section id="etape1">
+            <h1 data-scroll data-scroll-speed="1"><strong>notre</strong> <br/>agence</h1>
+            <p data-scroll data-scroll-speed="8">Notre agence est constituée de quatre étudiants et trois étudiantes. Nous avons chacun des compétences et des personnalités différentes, qui se complètent bien.
+
+                Nous avons eu la chance de pouvoir nous répartir les rôles dans l’agence comme nous le désirions. Il est nécessaire pour nous d’avoir chacun un rôle qui lui plaise, afin d’apprécier le travail qui nous est demandé.
+                
+                Notre agence est donc composée d’une cheffe de projet, Bérénice, trois infographistes, Elisa, Manuel et Nicolas, deux programmeurs, Maël et Dorian, et d’une chargée de multimédia, Elise.
+                
+                Elise et Elisa, à l’aise dans le domaine de la communication, s’occupent également ensemble de ce rôle. Afin qu’elles ne soient pas surchargées de travail, le reste de l’agence les aide dans leurs deuxièmes rôles respectifs. </p>
+        </section>
+        <section data-scroll-section id="etape2">
+            <h1 data-scroll><strong>Les</strong><br/> graphistes</h1>
+            <div data-scroll id="manu">
+                <h2>Manuel</h2>
+                <p>Graphiste aux côtés d’Elisa et Nicolas, je m’occupe de toutes les réalisations graphiques et artistiques pour notre projet. Étant légèrement perfectionniste aux visuels et aspects de mes travaux, j’aime travailler sur l’image de notre projet. Je suis quelqu’un à l’écoute des autres donc le travail de groupe compte beaucoup pour moi. 
+
+                    D’autre part, mon année passée à l’IUT informatique d’Orsay me permettra d’aider les développeurs, Maël et Dorian. </p>
+            </div>
+            <div data-scroll id="elisa">
+                <h2>Elisa</h2>
+                <p>Graphiste aux côtés de Manuel et Nicolas, je participe à la définition de l’univers visuel de notre agence et de notre projet. J’aime l’innovation et construire une application comme Paw me permet d’investir ma créativité au sein d’une équipe qui partage mes passions. 
+
+                    Je m’occupe également de la communication avec Élise, à deux nous sommes complémentaires ce qui nous permet d’avancer efficacement. J’ai de bonnes capacités rédactionnelles et je sais être à l’écoute des autres, il est pour moi essentiel d’entendre l’avis de tous les membres de notre agence pour faire des choix.</p>
+            </div>
+            <div data-scroll data-scroll-target="#etape2" data-scroll-direction="horizontal" id="nico">
+                <h2>Nicolas</h2>
+                <p>Graphiste aux côtés de Elisa et Manuel, j’apporte mon aide à la réalisation de l’identité visuelle de Paw. Doté de créativité et d’inspiration pour ce projet, cela me permet d’apporter mes idées sur les différentes tâches auxquelles nous sommes confrontés. De part et d’autre je suis chargé de travailler avec Elise sur le côté multimédia du projet afin de garder un lien entre les développeurs et les graphistes de notre équipe.</p>
+            </div>
+            
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
