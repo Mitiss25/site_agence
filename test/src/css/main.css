@@ -65,7 +65,7 @@ section {
   padding: 10%;
 }
 
-#etape2 {
+.presentation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,34 +78,67 @@ section {
           align-items: center;
 }
 
-#etape2 h1 {
+.presentation h1 {
   font-family: 'Fredoka One';
   font-size: 2.5rem;
   text-transform: uppercase;
   margin: 25% 0%;
 }
 
-#etape2 h1 strong {
+.presentation h1 strong {
   text-transform: lowercase;
   font-family: 'Righteous';
 }
 
-#etape2 div {
+.presentation .nom {
   border: solid black 1px;
-  border-radius: 5%;
+  border-radius: 3%;
   margin: 10%;
   padding: 5%;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#etape2 div h2 {
+.presentation .nom h2 {
   font-family: 'Righteous';
   text-transform: uppercase;
   padding: 10% 0%;
 }
 
-#etape2 div p {
+.presentation .nom p {
   text-align: justify;
+  font-family: 'Righteous';
+}
+
+.presentation .nom .img_contain {
+  height: 200px;
+  width: 150px;
+}
+
+.presentation .nom .img_contain img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+
+#etape4 h1 {
+  padding: 0% 10%;
+}
+
+#etape5 h1 {
+  padding: 0% 22%;
 }
 
 .container {
