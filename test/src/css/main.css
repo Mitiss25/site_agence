@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 section {
@@ -62,7 +68,7 @@ section {
 #etape1 p {
   font-family: 'Righteous';
   text-align: justify;
-  padding: 10%;
+  padding: 5%;
 }
 
 .presentation {
@@ -134,11 +140,45 @@ section {
 }
 
 #etape4 h1 {
-  padding: 0% 10%;
+  text-align: center;
 }
 
 #etape5 h1 {
-  padding: 0% 22%;
+  text-align: center;
+}
+
+#etape6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#etape6 h1 {
+  font-family: 'Fredoka One';
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 5% 0%;
+}
+
+#etape6 h1 strong {
+  text-transform: lowercase;
+  font-family: 'Righteous';
+}
+
+#etape6 p {
+  text-align: justify;
+  padding: 5%;
+  font-family: 'Righteous';
 }
 
 .container {
@@ -239,5 +279,108 @@ section {
     -webkit-transform: translateY(4.8rem) scale(0.5);
             transform: translateY(4.8rem) scale(0.5);
   }
+}
+
+body {
+  background-color: rgba(0, 181, 245, 0.05);
+}
+
+.social-container {
+  width: 400px;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0% 7%;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #00B5F5, #002A8F);
+  -webkit-transition: all 265ms ease-out;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #00B5F5;
+  background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: all 265ms ease-in;
+  transition: all 265ms ease-in;
+}
+
+#etape7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#etape7 h1 {
+  font-family: 'Fredoka One';
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 5% 0%;
 }
 /*# sourceMappingURL=main.css.map */
