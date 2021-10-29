@@ -383,4 +383,124 @@ body {
   text-transform: uppercase;
   margin: 5% 0%;
 }
+
+@media screen and (min-width: 1420px) {
+  #base {
+    height: 110vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #base h1 {
+    font-size: 13rem;
+  }
+  #etape1 h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  #etape1 p {
+    padding: 0% 25%;
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+  .presentation h1 {
+    text-align: center;
+    font-size: 4rem;
+  }
+  .nom {
+    width: 80%;
+    height: 80%;
+    margin: 0;
+  }
+  #etape2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1/4;
+        grid-template-columns: 1/4;
+    -ms-grid-rows: 1/3;
+        grid-template-rows: 1/3;
+  }
+  #etape2 h1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  #etape2 #manu {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  #etape2 #elisa {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  #etape2 #nico {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  #etape3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1/4;
+        grid-template-columns: 1/4;
+    -ms-grid-rows: 1/3;
+        grid-template-rows: 1/3;
+  }
+  #etape3 h1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  #etape3 #dodo {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  #etape3 #mael {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  #etape3 #anto {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+}
 /*# sourceMappingURL=main.css.map */
