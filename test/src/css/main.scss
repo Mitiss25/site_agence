@@ -11,6 +11,7 @@
 body {
     width: 100vw;
     overflow-x: hidden;
+    background-color: #ffb100;
 }
 
 section {
@@ -23,14 +24,6 @@ section {
     justify-content: center;
     align-items: center;
     padding-top: 10%;
-    .span_conteneur {
-        margin-top: 30%;
-        .span_item {
-        font-size: 4rem;
-        text-transform: uppercase;
-        font-family: 'Righteous';
-        }
-    }
 }
 
 #etape1 {
@@ -136,6 +129,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 120vh;
     h1 {
 
         strong {
@@ -149,6 +143,7 @@ section {
         margin : 5% 0%;
 
     }
+
     p {
         text-align: justify;
         padding: 5%;
@@ -243,10 +238,6 @@ $gradient      : #00B5F5;
     transform: scale($size);
     -ms-transform: scale($size);
     -webkit-transform: scale($size);
-}
-
-body {
-    background-color: rgba($iconColor, 0.05);
 }
 
 .social-container {
@@ -362,9 +353,10 @@ body {
 
 
         .span_item {
+            margin: 0;
             display: inline-block;
             text-transform: uppercase;
-            font-size: 23rem;
+            font-size: 23rem !important;
             font-family: 'Righteous';
             color: #49a078;
         }
@@ -549,6 +541,17 @@ body {
     }
 
     #etape7 {
-        height: 110vh;
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .span_conteneur {
+        margin-top: 30%;
+        .span_item {
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-family: 'Righteous';
+        }
     }
 }
