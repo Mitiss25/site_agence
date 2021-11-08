@@ -34,8 +34,11 @@ section {
   padding-top: 10%;
 }
 
-#base h1 {
+#base .span_conteneur {
   margin-top: 30%;
+}
+
+#base .span_conteneur .span_item {
   font-size: 4rem;
   text-transform: uppercase;
   font-family: 'Righteous';
@@ -97,7 +100,7 @@ section {
 }
 
 .presentation .nom {
-  border: solid #ffffff 1px;
+  border: solid #030a0a 2px;
   border-radius: 3%;
   margin: 10%;
   padding: 5%;
@@ -388,14 +391,14 @@ body {
   body {
     background-color: #ffb100;
   }
-  h1 {
-    color: #ffffff;
+  .presentation h1 {
+    color: #030a0a;
   }
   p {
-    color: #ffffff;
+    color: #030a0a;
   }
   h2 {
-    color: #ffffff;
+    color: #030a0a;
   }
   #base {
     height: 110vh;
@@ -439,7 +442,7 @@ body {
   }
   .presentation h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
   }
   .nom {
     width: 80%;
