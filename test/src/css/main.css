@@ -91,7 +91,7 @@ section {
 }
 
 .presentation .nom {
-  border: solid #030a0a 2px;
+  border: solid #030a0a 5px;
   border-radius: 3%;
   margin: 10%;
   padding: 5%;
@@ -307,7 +307,7 @@ section {
 }
 
 .social-icons i {
-  color: #fff;
+  color: #030a0a;
   position: absolute;
   top: 21px;
   left: 21px;
@@ -328,7 +328,7 @@ section {
   height: 60px;
   border-radius: 100%;
   display: block;
-  background: linear-gradient(45deg, #00B5F5, #002A8F);
+  background: linear-gradient(45deg, #ffb100, #ff8800);
   -webkit-transition: all 265ms ease-out;
   transition: all 265ms ease-out;
 }
@@ -344,8 +344,8 @@ section {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
-  color: #00B5F5;
-  background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+  color: #ffb100;
+  background: -webkit-linear-gradient(45deg, #ffb100, #ff8800);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-transition: all 265ms ease-in;
@@ -377,16 +377,13 @@ section {
 
 @media screen and (min-width: 1420px) {
   body {
-    background-color: #ffb100;
+    background-color: #030a0a;
   }
   .presentation h1 {
-    color: #030a0a;
+    color: #ffb100;
   }
   p {
-    color: #030a0a;
-  }
-  h2 {
-    color: #030a0a;
+    color: #fff;
   }
   #base {
     height: 110vh;
@@ -412,10 +409,10 @@ section {
     text-transform: uppercase;
     font-size: 23rem !important;
     font-family: 'Righteous';
-    color: #49a078;
+    color: #ffb100;
   }
   #base .span_item:nth-child(2n+1) {
-    color: #030a0a;
+    color: #9cc5a1;
   }
   #base .container {
     display: none;
@@ -423,6 +420,7 @@ section {
   #etape1 h1 {
     text-align: center;
     font-size: 4rem;
+    color: #fff;
   }
   #etape1 p {
     padding: 0% 25%;
@@ -437,6 +435,14 @@ section {
     width: 80%;
     height: 80%;
     margin: 0;
+    background-color: #9cc5a1;
+    border-color: #216869 !important;
+  }
+  .nom h2 {
+    color: #030a0a;
+  }
+  .nom p {
+    color: #030a0a;
   }
   #etape2 {
     display: -ms-grid;
@@ -600,7 +606,8 @@ section {
             justify-content: center;
   }
   #etape6 #conteneur_h1 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    color: #ffb100;
   }
   #etape6 #mega_conteneur {
     -ms-grid-row: 2;
@@ -641,6 +648,10 @@ section {
   }
   #etape7 {
     height: 120vh;
+  }
+  #etape7 h1 {
+    color: #ffb100;
+    font-size: 5rem;
   }
 }
 

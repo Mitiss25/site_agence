@@ -74,7 +74,7 @@ section {
     }
 
     .nom {
-        border: solid #030a0a 2px;
+        border: solid #030a0a 5px;
         border-radius: 3%;
         margin: 10%;
         padding : 5%;
@@ -229,10 +229,10 @@ $base: 0.6rem;
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 $timing        : 265ms;
-$iconColor     : #00B5F5;
-$accent        : #002A8F;
-$bluefade      : #0043E0;
-$gradient      : #00B5F5;
+$iconColor     : #ffb100;
+$accent        : #ff8800;
+$bluefade      : #ff5100;
+$gradient      : #ffb100;
 
 @mixin transformScale($size: 1) {
     transform: scale($size);
@@ -265,7 +265,7 @@ $gradient      : #00B5F5;
     }
 
     i {
-        color: #fff;
+        color: #030a0a;
         position: absolute;
         top: 21px;
         left: 21px;
@@ -326,20 +326,19 @@ $gradient      : #00B5F5;
 @media screen and (min-width : 1420px) {
     
     body{
-        background-color: #ffb100;
+        background-color: #030a0a;
     }
 
+
     .presentation h1 {
-        color : #030a0a;
+        color : #ffb100;
     }
 
     p {
-        color: #030a0a;
+        color: #fff;
     }
 
-    h2 {
-        color: #030a0a;
-    }
+
     
     #base {
         height: 110vh;
@@ -358,11 +357,11 @@ $gradient      : #00B5F5;
             text-transform: uppercase;
             font-size: 23rem !important;
             font-family: 'Righteous';
-            color: #49a078;
+            color: #ffb100;
         }
 
         .span_item:nth-child(2n+1) {
-            color: #030a0a;
+            color: #9cc5a1;
         }
 
         .container {
@@ -376,6 +375,7 @@ $gradient      : #00B5F5;
         h1 {
             text-align: center;
             font-size: 4rem;
+            color: #fff;
         }
 
         p {
@@ -397,7 +397,16 @@ $gradient      : #00B5F5;
         width: 80%;
         height: 80%;
         margin: 0;
+        background-color: #9cc5a1;
+        border-color: #216869 !important;
 
+        h2 {
+            color: #030a0a;
+        }
+
+        p {
+            color: #030a0a;
+        }
     }
 
     #etape2 {
@@ -503,7 +512,8 @@ $gradient      : #00B5F5;
             justify-content: center;
 
             h1 {
-                font-size: 4rem;
+                font-size: 5rem;
+                color: #ffb100;
             }
         }
 
@@ -542,6 +552,10 @@ $gradient      : #00B5F5;
 
     #etape7 {
         height: 120vh;
+        h1 {
+            color: #ffb100;
+            font-size: 5rem;
+        }
     }
 }
 
