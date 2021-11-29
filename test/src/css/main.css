@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 * {
   -webkit-box-sizing: border-box;
@@ -12,6 +13,11 @@ body {
   width: 100vw;
   overflow-x: hidden;
   background-color: #ffb100;
+}
+
+p {
+  font-weight: 700;
+  color: #fff;
 }
 
 section {
@@ -60,7 +66,7 @@ section {
 }
 
 #etape1 p {
-  font-family: 'Righteous';
+  font-family: 'Raleway';
   text-align: justify;
   padding: 5%;
 }
@@ -91,7 +97,6 @@ section {
 }
 
 .presentation .nom {
-  border: solid #030a0a 5px;
   border-radius: 3%;
   margin: 10%;
   padding: 5%;
@@ -119,7 +124,7 @@ section {
 
 .presentation .nom p {
   text-align: justify;
-  font-family: 'Righteous';
+  font-family: 'Raleway';
 }
 
 .presentation .nom .img_contain {
@@ -173,7 +178,7 @@ section {
 #etape6 p {
   text-align: justify;
   padding: 5%;
-  font-family: 'Righteous';
+  font-family: 'Raleway';
 }
 
 .container {
@@ -380,7 +385,7 @@ section {
     background-color: #030a0a;
   }
   .presentation h1 {
-    color: #ffb100;
+    color: #9cc5a1;
   }
   p {
     color: #fff;
@@ -433,16 +438,17 @@ section {
   }
   .nom {
     width: 80%;
-    height: 80%;
+    height: 100%;
     margin: 0;
-    background-color: #9cc5a1;
-    border-color: #216869 !important;
+    background-color: #ffb100;
+    border-color: #fff !important;
   }
   .nom h2 {
-    color: #030a0a;
+    color: #fff;
   }
   .nom p {
-    color: #030a0a;
+    color: #fff;
+    padding: 0% 5%;
   }
   #etape2 {
     display: -ms-grid;
@@ -587,6 +593,7 @@ section {
     -ms-grid-rows: 1fr 1fr;
     -ms-grid-columns: 1fr 1fr;
         grid-template: 1fr 1fr / 1fr 1fr;
+    height: 120vh;
   }
   #etape6 #conteneur_h1 {
     -ms-grid-row: 1;
@@ -663,6 +670,25 @@ section {
     font-size: 4rem;
     text-transform: uppercase;
     font-family: 'Righteous';
+  }
+  p {
+    color: #030a0a;
+  }
+  .nom {
+    border: solid #030a0a 3px;
+  }
+  #etape6, #etape7 {
+    height: 150vh;
+  }
+  #etape5 {
+    height: 200vh;
+  }
+  #mega_conteneur {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  .social-container {
+    width: 215px;
   }
 }
 /*# sourceMappingURL=main.css.map */
